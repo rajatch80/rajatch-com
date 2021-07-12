@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "next start -p 8080",
+    "gcp-build": "npm run build",
+    "deploy": "gcloud config set project porfolio-react && gcloud app deploy app.yaml --version=0-1-0"
   },
   "dependencies": {
     "next": "10.2.3",

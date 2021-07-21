@@ -52,11 +52,6 @@ const Header = () => (
                     <NavLink>About</NavLink>
                 </Link>
             </li>
-            <li>
-                <Link href="/fun">
-                    <NavLink>Fun</NavLink>
-                </Link>
-            </li>
         </Div2>
         <Div3>
             <SocialIcons href="https://github.com/r12543">
@@ -71,7 +66,7 @@ const Header = () => (
             <SocialIcons href="https://fb.com/r12543">
                 <AiFillFacebook size="3rem" />
             </SocialIcons>
-            <SocialIcons href="https://twitter.com/rajatch80">
+            <SocialIcons href="https://twitter.com/rajatch8">
                 <AiFillTwitterSquare size="3rem" />
             </SocialIcons>
         </Div3>

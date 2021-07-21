@@ -1,5 +1,5 @@
 import React from "react";
-import { DiFirebase, DiReact, AiFillTool, DiNodejs } from "react-icons/di";
+import { DiFirebase, DiReact, DiNodejsSmall } from "react-icons/di";
 import {
     Section,
     SectionDivider,
@@ -21,7 +21,7 @@ const Technologies = () => (
         <SectionTitle>Technologies</SectionTitle>
         <List>
             <ListItem>
-                <DiNodejs size="3rem" />
+                <DiNodejsSmall size="3rem" />
                 <ListContainer>
                     <ListTitle>Back-End</ListTitle>
                     <ListParagraph>
@@ -48,15 +48,6 @@ const Technologies = () => (
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
-            {/* <ListItem>
-                <AiFillTool size="3rem" />
-                <ListContainer>
-                    <ListTitle>Front-End</ListTitle>
-                    <ListParagraph>
-                        React.js, HTML, CSS, React Native
-                    </ListParagraph>
-                </ListContainer>
-            </ListItem> */}
         </List>
     </Section>
 );

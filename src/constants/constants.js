@@ -26,7 +26,7 @@ export const projects = [
         description:
             "DaaS provides data as a service using set of APIs on top of the life sciences data ocean which is served using ElasticSearch. It provides the functionality to filter the data by various features.",
         image: "/images/daas.png",
-        tags: ["Python", "Node.js", "ElasticSearch", "Microservices"],
+        tags: ["Python", "Node.js", "ElasticSearch"],
         source: "https://www.innoplexus.com/life-science-ai-products-solutions/daas/",
         visit: null,
         id: 2,

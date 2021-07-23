@@ -60,12 +60,12 @@ const Header = () => (
             <SocialIcons href="https://linkedin.com/in/chaudhary-rajat">
                 <AiFillLinkedin size="3rem" />
             </SocialIcons>
-            <SocialIcons href="https://instagram.com/lost_bohemian">
+            {/* <SocialIcons href="https://instagram.com/lost_bohemian">
                 <AiFillInstagram size="3rem" />
             </SocialIcons>
             <SocialIcons href="https://fb.com/r12543">
                 <AiFillFacebook size="3rem" />
-            </SocialIcons>
+            </SocialIcons> */}
             <SocialIcons href="https://twitter.com/rajatch8">
                 <AiFillTwitterSquare size="3rem" />
             </SocialIcons>

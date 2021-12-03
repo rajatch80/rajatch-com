@@ -57,7 +57,7 @@ export const TimeLineData = [
     year: 2020,
     text: "Instart got acquired, moved to Singapore, joined Konigle ",
   },
-  { year: 2021, text: "Working from home, surviving pandemic" },
+  { year: 2021, text: "Left Konigle. Joined Koo India. Survived COVID-19" },
 ];
 
 export const HeroSummary = `

@@ -68,7 +68,7 @@ I try to learn the ukulele, journal in Hindi, I listen to Jagjit Singh, and watc
 `;
 
 export const ResumeLink =
-  "https://drive.google.com/file/d/1IkZDg3ywTgPIL684uWSYZEzWEPRLDhjZ/view?usp=sharing";
+  "https://drive.google.com/file/d/1KzLh12bH0oDxxhjxFVjfgbpTXJDP5kk9/view?usp=share_link";
 
 export const FunSegmentCards = [
   {

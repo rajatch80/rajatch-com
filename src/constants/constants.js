@@ -61,10 +61,18 @@ export const TimeLineData = [
 ];
 
 export const HeroSummary = `
-I am specialized in backend development and data engineering, I've gathered over 5 years' of experience 
-in Software Development. 
-I love to learn new technologies and keep myself updated. In my spare time, 
-I try to learn the ukulele, journal in Hindi, I listen to Jagjit Singh, and watch Rick & Morty.
+Specializing in backend development and data engineering, 
+I've gathered over 6 years of experience in Software Development, especially in a startup environment. 
+I have built more than 10 projects from scratch and handled full backend development, designed APIs and services, 
+set up Database Clusters, and managed DevOps.
+
+I have helped set up DaaS (Data as a Service) in my first company 
+which reduced the server costs of the organization by 40% and 
+gave the world access to APIs that provided all the important medical data 
+including CTs, Publications, Congresses, etc. 
+Recently, I developed a browser-based JS plugin to dynamically add multiple widgets to websites for e-commerce sellers.
+
+In my current role, I am handling a few microservices viz. analytics and file upload service which deal with very high scale.
 `;
 
 export const ResumeLink =
@@ -85,3 +93,20 @@ export const FunSegmentCards = [
     source: "",
   },
 ];
+
+export const games = [
+  {
+    title: "Tic-Tac-Toe",
+    description:
+      "Classic tic-tac-toe. Written using vanilla JS.",
+    visit: "/tic-tac-toe/index.html",
+    id: 0
+  },
+  {
+    title: "Wordle",
+    description:
+      "Guess the word. Written using vanilla JS.",
+    visit: "/wordle/index.html",
+    id: 1
+  }
+]

@@ -8,6 +8,31 @@
 body {
     background: #56baed;
 }
+.home {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.home-link:link {
+    background-color: #56baed;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: xxx-large;
+  }
+  
+.home-link:visited {
+    background-color: #56baed;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: xxx-large;
+}
+
 .select-box,
 .play-board,
 .result-box {

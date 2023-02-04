@@ -12987,6 +12987,8 @@ function intialize() {
     ["A", "S", "D", "F", "G", "H", "J", "K", "L", " "],
     ["Enter", "Z", "X", "C", "V", "B", "N", "M", "⌫"],
   ];
+  let keyboardDiv = document.createElement("div");
+  keyboardDiv.classList.add("keyboard");
 
   for (let i = 0; i < keyboard.length; i++) {
     let currRow = keyboard[i];
@@ -13015,8 +13017,9 @@ function intialize() {
       }
       keyboardRow.appendChild(keyTile);
     }
-    document.body.appendChild(keyboardRow);
+    keyboardDiv.appendChild(keyboardRow);
   }
+  document.body.appendChild(keyboardDiv);
 
   // Listen for Key Press
   document.addEventListener("keyup", (e) => {

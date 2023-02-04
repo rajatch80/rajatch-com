@@ -7,6 +7,36 @@ hr {
   width: 500px;
 }
 
+.home {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.home-link:link {
+  background-color: white;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+  font-size: xxx-large;
+}
+
+.home-link:visited {
+  background-color: white;
+  color: black;;
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+  font-size: xxx-large;
+}
+
+.game {
+  position: relative;
+  top: 10%;
+}
+
 #title {
   font-size: 36px;
   font-weight: bold;
@@ -14,6 +44,7 @@ hr {
 }
 
 #board {
+  position: relative;
   width: 350px;
   height: 420px;
   margin: 0 auto;
@@ -56,9 +87,14 @@ hr {
   border-color: white;
 }
 
-.keyboard-row {
-  width: 400px;
+.keyboard {
+  top: 10%;
+  position: relative;
+}
 
+.keyboard-row {
+  position: relative;
+  width: 400px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;

@@ -1,5 +1,5 @@
-import Accomplishments from "../components/Accomplishments/Accomplishments";
 import BgAnimation from "../components/BackgrooundAnimation/BackgroundAnimation";
+import Games from "../components/Games/Games";
 import Hero from "../components/Hero/Hero";
 import Projects from "../components/Projects/Projects";
 import Technologies from "../components/Technologies/Technologies";
@@ -17,7 +17,7 @@ const Home = () => {
             <Projects />
             <Technologies />
             <Timeline />
-            {/* <Accomplishments /> */}
+            <Games />
         </Layout>
     );
 };

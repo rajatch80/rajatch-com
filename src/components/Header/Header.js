@@ -53,23 +53,17 @@ const Header = () => (
                 </Link>
             </li>
             <li>
-                <Link href="/fun">
-                    <NavLink>Fun</NavLink>
+                <Link href="/#games">
+                    <NavLink>Games</NavLink>
                 </Link>
             </li>
         </Div2>
         <Div3>
-            <SocialIcons href="https://github.com/r12543">
+            <SocialIcons href="https://github.com/rajatch80">
                 <AiFillGithub size="3rem" />
             </SocialIcons>
-            <SocialIcons href="https://linkedin.com/in/chaudhary-rajat">
+            <SocialIcons href="https://linkedin.com/in/rajatch80">
                 <AiFillLinkedin size="3rem" />
-            </SocialIcons>
-            <SocialIcons href="https://instagram.com/lost_bohemian">
-                <AiFillInstagram size="3rem" />
-            </SocialIcons>
-            <SocialIcons href="https://fb.com/r12543">
-                <AiFillFacebook size="3rem" />
             </SocialIcons>
             <SocialIcons href="https://twitter.com/rajatch80">
                 <AiFillTwitterSquare size="3rem" />

@@ -1,7 +1,7 @@
 ## Personal Portfolio
 
-- Built by following this: https://www.youtube.com/watch?v=OPaLnMw2i_0
+-   Built by following this: <https://www.youtube.com/watch?v=OPaLnMw2i_0>
 
-- Used next.js
+-   Used next.js
 
-Visit http://rajatch.com
+Visit <http://rajatch.com>

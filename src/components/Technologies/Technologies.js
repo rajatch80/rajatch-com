@@ -3,6 +3,7 @@ import { DiFirebase, DiReact, DiNodejsSmall } from "react-icons/di";
 import {
     Section,
     SectionDivider,
+    SectionText,
     SectionTitle,
 } from "../../styles/GlobalComponents";
 import {
